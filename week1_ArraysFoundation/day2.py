@@ -36,3 +36,12 @@ def isMonotonic(nums):
 
 nums = [1,2,6,4,5]
 print (isMonotonic(nums))
+
+"""
+🎯 DAY 2 SUMMARY - learned:
+✅ Two Pointer Technique
+Used to reverse arrays/strings efficiently
+Works by swapping elements from both ends
+Time: O(n), Space: O(1)
+
+"""

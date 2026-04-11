@@ -6,10 +6,10 @@ def twosum(number, target):
         num = number[i]
         result = target - num
         if result in store:
-            return [store[result], 1]
+            return [store[result], i]
 
         store[num] = i
 
-number = [3, 3]
+number = [3,2,4]
 target = 6  
 print(twosum(number, target))         

@@ -21,7 +21,7 @@ number = [3,2,4]
 target = 5  
 print(twoSum(number, target))    
 
-#DAY 1 — Problem 2: Maximum Subarray
+# Problem 2: Maximum Subarray
 #🧠 Problem Statement (Simple)
 #Find maximum sum of contiguous subarray
 

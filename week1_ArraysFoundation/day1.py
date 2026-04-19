@@ -3,7 +3,6 @@
 
 # Problem 1: Two Sum Find Max / Min in Array
 #🧠 Problem Statement (Simple)
-#You are given:
 #List of numbers, A target number
 #👉 Find 2 numbers that add up to target, 👉 Return their indexes 
 

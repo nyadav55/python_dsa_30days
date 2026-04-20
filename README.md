@@ -1,5 +1,5 @@
     
-=======
+======= Road to DSA Python
 🚀 30-DAY DSA ROADMAP (2 Problems/Day)
 🎯 Strategy
 Daily: 2 problems
@@ -52,18 +52,12 @@ DevOps + AI track
 👉 Goal: Interview-ready + problem-solving confidence
 
 📅 WEEK 1 (Days 1–7) → (Arrays – Foundation)
-
 Focus: Thinking + Logic building
-
 🚀 WEEK 1 
 ✅ Day 1
 Find max/min in array
 Sum of array
 Two Sum
-👉 https://leetcode.com/problems/two-sum/
-Maximum Subarray
-👉 https://leetcode.com/problems/maximum-subarray/
-
 ✅ Day 2
 Reverse array
 Check sorted array

@@ -1,5 +1,5 @@
     
-======= Road to DSA Python
+======= NY Road to DSA Python
 🚀 30-DAY DSA ROADMAP (2 Problems/Day)
 🎯 Strategy
 Daily: 2 problems

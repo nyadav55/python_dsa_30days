@@ -1,0 +1,25 @@
+name: Promote Develop to Staging
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  test-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history for all branches
+
+      - name: Run Tests
+        run: npm test # Replace with your test command
+
+      - name: Merge develop into staging
+        if: success()
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git checkout staging
+          git merge origin/develop
+          git push origin staging
